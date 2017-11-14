@@ -1,0 +1,30 @@
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+#home{
+  width: 100vw;
+  height: 10vh;
+  background-color: #1E3A42;}
+
+header * {
+  display: inline-block;}
+
+.container{
+  float: right;
+  margin: 0 15vw;
+}
+
+li{
+  padding: 3.5vh 0.5vw;
+}
+
+li a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+li.about a{
+  color: #9ACD32;
