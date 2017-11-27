@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <title>MAGNATE</title>
   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="verstka.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/verstka.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-
-<section id="home">
-  <section class="container">
-    <header>
+<body>
+  <section id="home">
+    <header class="container">
       <nav>
         <ul>
           <li>
@@ -40,19 +42,42 @@
         </section>
       </nav>
     </header>
+
+    <section class="slider">
+      <div class="slick-slider js-slick">
+        <div class="photo is-animating" style="background-image: url('img/one.jpg');"></div>
+
+        <div class="photo" style="background-image: url('img/two.jpg');"></div>
+        <div class="photo" style="background-image: url('img/three.jpg');"></div>
+        <div class="photo" style="background-image: url('img/four.jpg');"></div>
+        <div class="photo" style="background-image: url('img/five.jpg');"></div>
+      </div>
+    </section>
+
   </section>
-</section>
-<section id="photolist">
-  <img class="photolist" src="img/photolist.png" alt="photolist">
-</section>
-<section id="contact_us_now">
-  <img class="contact" src="img/contact%20us%20now.png" alt="contact_us_now">
-</section>
-<section id="info">
-  <img class="info" src="img/info.png" alt="info">
-</section>
-<section id="contact_info">
-  <img class="cont_info" src="img/contact%20info.png" alt="contact_info">
-</section>
+  <section id="about">
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. "
+    </p>
+    <img src="img/social_images.png" alt="Social images">
+  </section>
+  <!--<section id="contact_us_now">-->
+  <!--<img class="contact" src="img/contact%20us%20now.png" alt="contact_us_now">-->
+  <!--</section>-->
+
+  <!--<section id="info">-->
+  <!--<img class="info" src="img/info.png" alt="info">-->
+  <!--</section>-->
+
+  <!--<section id="contact_info">-->
+  <!--<img class="cont_info" src="img/contact%20info.png" alt="contact_info">-->
+  <!--</section>-->
+  <span class="test" id="test">
+    TEST
+  </span>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>

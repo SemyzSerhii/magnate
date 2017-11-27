@@ -1,0 +1,83 @@
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 99.8vw;
+}
+
+#home {
+  width: 100%;
+  height: auto;
+  background-color: #1E3A42;
+}
+
+#photolist img {
+  width: 100%;
+  height: auto;
+
+}
+
+header * {
+  display: inline-block;
+}
+
+header.container {
+  text-align: right;
+  margin: 0 15vw;
+}
+li {
+  padding: 3.5vh 0.5vw;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+li.about a {
+  color: #9ACD32;
+}
+
+
+#about p, img {
+  display: inline-block;
+}
+#about p{
+  width: 20%;
+}
+
+.test{
+  color: red;
+}
+
+.test{
+  color: blue;
+}
+/*#photolist{*/
+/*width: 100vw;*/
+/*height: 76vh;*/
+/*}*/
+/*#photolist img{*/
+/*width: 100vh;*/
+/*}*/
+/*#contact_us_now{*/
+/*width: 100vw;*/
+/*height: 10vh;*/
+/*}*/
+/*.contact{*/
+/*width: 100%;*/
+/*}*/
+/*#info{*/
+/*width: 100vw;*/
+/*height: 108vh;*/
+/*}*/
+/*.info{*/
+/*width: 100%;*/
+/*}*/
+/*#contact_info{*/
+/*width: 100vw;*/
+/*height: 50vh;*/
+/*}*/
+/*.cont_info{*/
+/*width: 100%;*/
+/*}*/
