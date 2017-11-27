@@ -46,13 +46,23 @@ li.about a {
   width: 20%;
 }
 
-.test{
-  color: red;
+.contact_us_now {
+  background-color: #1E3A42;
+  height: 7vh;
+}
+.contact_us_now p{
+  color: white;
+}
+.contact_us_now a{
+  background-color:#9ACD32;
+  color: white;
+  text-decoration: none;
+  margin-left:60vw;
+  padding: 0.5vh 5vw;
+  border-radius:3px;
+  box-shadow: 1px 1.5px 3px 1px black;
 }
 
-.test{
-  color: blue;
-}
 /*#photolist{*/
 /*width: 100vw;*/
 /*height: 76vh;*/
