@@ -13,3 +13,17 @@ $('.js-slick')
   .on('afterChange', function(event, slick, currentSlide, nextSlide) {
     $(slick.$slides.get(currentSlide)).addClass('is-animating');
   });
+
+
+
+$('.home, .contacts, .about, .services, .clients, .slider').hover(function () {
+    $(this).css({
+        'color': 'lime'
+    });
+}, function () {
+    $(this).css({
+        'color': 'white'
+    });
+});
+
+

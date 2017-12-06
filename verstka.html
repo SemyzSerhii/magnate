@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <title>MAGNATE</title>
@@ -17,33 +17,31 @@
       <nav>
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <a  class="home" href="#home">HOME</a>
           </li>
-          <li class="about">
-            <a href="#about">ABOUT</a>
-          </li>
-          <li>
-            <a href="#services">SERVICES</a>
+          <li >
+            <a  class="about" href="#about">ABOUT</a>
           </li>
           <li>
-            <a href="#clients">CLIENTS</a>
+            <a class="services" href="#services">SERVICES</a>
           </li>
           <li>
-            <a href="#portfolio">PORTFOLIO</a>
+            <a class="clients" href="#clients">CLIENTS</a>
           </li>
           <li>
-            <a href="#contacts">CONTACTS</a>
+            <a class="slider" href="#slider">PORTFOLIO</a>
+          </li>
+          <li>
+            <a class="contacts" href="#contacts">CONTACTS</a>
           </li>
         </ul>
-        <section class="img">
-          <div>
-            <img src="img/facebooktvit.png" alt="facebook">
+          <div class="facebook_tvit">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-tumblr-square" aria-hidden="true"></i>
           </div>
-        </section>
       </nav>
     </header>
-
-    <section class="slider">
+    <section id="slider">
       <div class="slick-slider js-slick">
         <div class="photo is-animating" style="background-image: url('img/one.jpg');"></div>
 
@@ -56,29 +54,61 @@
 
   </section>
   <section class="contact_us_now">
-    <p>
+    <div class="Lorem">
+      <p>
       Lorem ipsum dolor sit amet. consectetur adipiscing elit.
-    </p>
-    <a href="#">Contact Us Now</a>
+      </p>
+    </div>
+    <div class="button_contact"><a href="#">Contact Us Now</a></div>
   </section>
   <section id="about">
-    <p>
+    <span>
+      <p>
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. "
-    </p>
-    <img src="img/social_images.png" alt="Social images">
+      magna aliqua.
+      </p>
+      </br>
+      <p class="color_Semyz">-Semyz Serhii </p>
+    </span>
+    <div class="sochseti">
+      <a href="https://www.groupon.com"><img class="info" src="img/Groupon.png" height="75px" width="130px" alt="groupon"></a>
+      <a href="https://www.dropbox.com/ru/"><img class="info" src="img/dropbox.svg" height="75px" width="130px" alt="dropbox"></a>
+      <a href="https://www.skype.com/ru/new/"><img class="info" src="img/Skype.png" height="75px" width="130px" alt="skype"></a>
+      <a href="https://ru.foursquare.com"><img class="info" src="img/fsquare.jpg" height="75px" width="130px" alt="fsquare"></a>
+    </div>
   </section>
-  <!--<section id="contact_us_now">-->
-  <!--<img class="contact" src="img/contact%20us%20now.png" alt="contact_us_now">-->
-  <!--</section>-->
-
-  <!--<section id="info">-->
-  <!--<img class="info" src="img/info.png" alt="info">-->
-  <!--</section>-->
-
-  <!--<section id="contact_info">-->
-  <!--<img class="cont_info" src="img/contact%20info.png" alt="contact_info">-->
-  <!--</section>-->
+  <section id="clients">
+    <section class="block_clients">
+     <div class="button_clients">
+        <a href="#">What We Do</a>
+        <a href="#">Client Base</a>
+        <a href="#">Latest Project</a>
+   </div>
+    <section class="content_clients">
+      <div>
+      <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
+    </p>
+      <a href="#">Read More</a>
+    </div>
+    <div>
+      <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
+    </p>
+      <a href="#">Read More</a>
+    </div>
+    <div>
+      <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
+    </p>
+      <a href="#">Read More</a>
+    </div>
+    </section>
+   </section>
+  </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   <script src="js/index.js"></script>

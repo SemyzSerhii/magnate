@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#menu li#submenu ul').hide();
+            $('#menu li#submenu').hover(
+                function(){
+                    $(this).find('ul').slideDown();
+                }, function(){
+                    $(this).find('ul').slideUp('fast');
+                });
+        });
+    </script>
+</head>
+<body>
+
+<div id="menu">
+    <ul>
+        <li id="submenu"> Пункт
+            <ul>
+                <li> punct1</li>
+                <li>punkt2</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
